@@ -48,7 +48,20 @@ docker run -p 6379:6379 redis
 
 ```
 
-sss
+FROM mysql
+
+ENV MYSQL_ROOT_PASSWORD=sample
+ENV MYSQL_DATABASE=sample
+ENV MYSQL_USER=sample
+ENV MYSQL_PASSWORD=sample
+
+```
+
+
+```
+
+docker build -t mysql/test .
+docker run mysql/test
 
 ```
 
