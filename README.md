@@ -1,6 +1,6 @@
 # Getting Started
 
-## start Django Project
+## Build the Django Project
 
 create those available pages with the render function
 
