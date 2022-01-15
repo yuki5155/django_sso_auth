@@ -16,3 +16,32 @@ TW_AUTH_CALLBACK = '/callback'
 
 ```
 
+## example
+
+#### **`view.py`**
+
+```
+
+from django.shortcuts import render
+from libraries.my_auth import sso_auth_required, sso_login, sso_callback
+
+
+def login_top(request):
+
+    url = sso_login()
+
+    return render(request, 'top/index.html', {'url': url})
+
+@sso_callback
+def callback(request):
+
+    return render(request, 'top/callback.html')
+
+
+@sso_auth_required
+def mypage(request):
+    print(request.AUTH_STATE)
+    print(request.SESSIONKEY)
+    return(render(request, 'top/mypage.html'))
+
+```
