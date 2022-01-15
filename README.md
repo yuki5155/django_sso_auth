@@ -23,7 +23,7 @@ def callback(request):
 
 def mypage(request):
    
-    return(render(request, 'top/mypage.html'))
+    return render(request, 'top/mypage.html')
 
 ```
 
