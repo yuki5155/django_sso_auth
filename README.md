@@ -73,4 +73,4 @@ docker run mysql/test
 - generate API KEY and Secret
 - set the callback url
 
-[GitHub Pages](https://pages.github.com/).
+[DOC](./docs).
