@@ -57,6 +57,7 @@ ENV MYSQL_PASSWORD=sample
 
 ```
 
+run those commands on your commandline
 
 ```
 
