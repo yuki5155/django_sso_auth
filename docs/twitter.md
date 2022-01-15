@@ -40,8 +40,9 @@ def callback(request):
 
 @sso_auth_required
 def mypage(request):
-    print(request.AUTH_STATE)
-    print(request.SESSIONKEY)
+    
+    # if authorized request.AUTH_STATE is true
+
     return(render(request, 'top/mypage.html'))
 
 ```
