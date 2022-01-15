@@ -46,3 +46,24 @@ def mypage(request):
     return(render(request, 'top/mypage.html'))
 
 ```
+
+#### **`settings.py`**
+
+```
+
+DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': os.environ['NAME'],
+            'USER': os.environ['USER'],
+            'PASSWORD': os.environ['PASSWORD'],
+            'HOST': os.environ['HOST'],
+            'PORT': '3306',
+            'OPTIONS': {
+                'charset': 'utf8mb4',
+                'sql_mode': 'TRADITIONAL,NO_AUTO_VALUE_ON_ZERO,ONLY_FULL_GROUP_BY',
+            },
+        },
+    }
+
+```
