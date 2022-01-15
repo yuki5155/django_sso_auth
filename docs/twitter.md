@@ -51,6 +51,12 @@ def mypage(request):
 
 ```
 
+# Twitter Settings
+BASE_DOMAIN = "http://localhost:8000"
+TW_CK = os.environ['tw_ck']
+TW_CS = os.environ['tw_cs']
+TW_AUTH_CALLBACK = '/callback'
+
 DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
