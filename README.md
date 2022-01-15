@@ -10,17 +10,6 @@ create those available pages with the render function
 
 example
 
-## Run the redis container(recommended)
-
-For saving cashe, redis is recommended to use
-
-django default cache version is upcomming
-
-
-
-
-
-
 ```
 
 def login_top(request):
@@ -37,6 +26,22 @@ def mypage(request):
     return render(request, 'top/mypage.html')
 
 ```
+
+
+## Run the redis container(recommended)
+
+For saving cashe, usage of redis is recommended as more helpful features
+
+The django default cache version may be upcomming 
+
+Run those command on your command line
+
+```
+
+docker run -p 6379:6379 redis
+
+```
+
 
 # For Twitter
 
