@@ -9,3 +9,8 @@ create those available pages with the render function
 - http://localhost:8000/mypage
 
 # For Twitter
+
+- create an account
+- build a project 
+- generate API kEY and Secret
+- set the callback url
