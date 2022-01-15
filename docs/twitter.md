@@ -1,4 +1,4 @@
-## before the beginning
+## Before the Beginning
 
 - create a twitter account
 - build a project on the developer platform of twitter 
