@@ -5,7 +5,7 @@
 - generate API Key and Secret
 - callback url
 
-## Add these variables on Setting.py
+## Add These Variables on Setting.py
 
 ```
 
@@ -16,7 +16,7 @@ TW_AUTH_CALLBACK = '/callback'
 
 ```
 
-## example
+## Example
 
 #### **`view.py`**
 
