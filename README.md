@@ -70,5 +70,5 @@ docker run mysql/test
 
 - create an account
 - build a project 
-- generate API kEY and Secret
+- generate API KEY and Secret
 - set the callback url
