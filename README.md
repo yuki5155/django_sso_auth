@@ -14,14 +14,11 @@ example
 
 def login_top(request):
 
-    url = sso_login()
-
     return render(request, 'top/index.html')
 
 def callback(request):
 
     return render(request, 'top/callback.html')
-
 
 
 def mypage(request):
